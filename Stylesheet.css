@@ -1,0 +1,69 @@
+#start-title{
+
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: white;
+
+    -fx-font-size: 30;
+
+}
+#timer{
+    -fx-font-size: 60;
+    -fx-font-family: "Ubuntu Light";
+
+}
+.color-picker {
+    -fx-background-radius: 4;
+    -fx-padding: 0;
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0, 1;
+    -fx-pref-height: 30;
+    -fx-pref-width: 100;
+}
+.color-picker .color-picker-label{
+   -fx-font-size: 13.5;
+    -fx-background-insets: 0, 1;
+    -fx-border-radius: 2;
+}
+.button{
+    -fx-cursor: hand;
+    -fx-font-size: 12;
+    -fx-background-color: #a5cff5;
+    -fx-background-size: 25px;
+}
+#sound{
+    -fx-background-color: none;
+
+}
+#saved-maze{
+    -fx-border-width: 3;
+    -fx-border-color:  #a5cff5
+}
+#copy-label{
+    -fx-font-family: Serif;
+    -fx-font-size: 10px;
+    -fx-text-fill: white;
+}
+#health-bar .bar {
+    -fx-background-color: #66c88c;
+}
+#shield-bar .bar {
+    -fx-background-color: #1d90b3;
+}
+.help:hover{
+    -fx-cursor: hand;
+
+}
+#help{
+    -fx-background-color: none;
+}
+#start-colorpick{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight:bold;
+    -fx-font-size: 12px;
+}
+#my-image{
+    -fx-background-color: white;
+}
+#settings{
+    -fx-background-color: none;
+}
